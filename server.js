@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('successfully deployed');
+  res.send('Naian is My manager');
 });
 
 app.listen(PORT, HOST);
